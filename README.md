@@ -1,16 +1,16 @@
 # torch-ngp-semantic
 This is an rough implementation of semantic-NeRF based on torch-ngp:
 
-Achievement:
+### Achievement:
 
 The learning of semantic neural field can be achieved in a very short time.(about 20 minutes)
 
-Limitation:
+### Limitation:
 
 Because the rendering process of semantic category prediction volume rendering has not been completed yet, it cannot be accelerated by cuda. And, the implementation content of this project is relatively limited, which can only achieve the semantic field learning and limited visual display. 
 
 # Results show
-[![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/9f3115edcd420a914f65dc889b9590a8bec6e413/assets/show1.gif)
+![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/9f3115edcd420a914f65dc889b9590a8bec6e413/assets/show1.gif)
 
 
 # Install
