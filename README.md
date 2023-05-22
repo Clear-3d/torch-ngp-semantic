@@ -16,7 +16,7 @@ Because the rendering process of semantic category prediction volume rendering h
 # Install
 
 ```bash
-https://github.com/Clear-3d/torch-ngp-semantic.git
+git clone https://github.com/Clear-3d/torch-ngp-semantic.git
 cd torch-ngp-semantic 
 ```
 
@@ -46,7 +46,7 @@ pip install . # install to python path (you still need the raymarching/ folder, 
 
 # Usage
 
- used the DMSR dataset with a modified format for testing, please download and place it in the appropriate path.
+I modified some DMSR dataset format to make it easier to use, you can download it here.
 
 Train code：
 
