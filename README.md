@@ -72,6 +72,23 @@ Do not use -O for training, because this repository does not implement the cuda 
 
 Since I didn't have time to complete the whole project, I can only make sure that the above training and display process is correct. If you are interested in improving the whole project, feel free to ask questions in the issue.
 
+# Citation
+
+If you find this work useful, a citation will be appreciated via:
+```
+@misc{torch-ngp-semantic,
+    Author = {Zhangyu Lai},
+    Year = {2023},
+    Note = {https://github.com/Clear-3d/torch-ngp-semantic/},
+    Title = {torch-ngp-semantic: a implementation of semantic-NeRF based on torch-ngp}
+}
+
+```
+
+
+
+
+
 # Acknowledgement
 
 Thanks to torch-ngp for a very nice pytorch implementation of Instant-ngp:
