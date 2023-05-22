@@ -46,7 +46,7 @@ pip install . # install to python path (you still need the raymarching/ folder, 
 
 # Usage
 
-I modified some DMSR dataset format to make it easier to use, you can download it here(https://www.dropbox.com/s/39ze5ev17cehouz/dmsr.rar?dl=0).
+I modified some DMSR dataset format to make it easier to use, you can download it [here](https://www.dropbox.com/s/39ze5ev17cehouz/dmsr.rar?dl=0).
 
 Train code：
 
