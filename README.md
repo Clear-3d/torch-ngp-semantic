@@ -1,9 +1,9 @@
 # torch-ngp-semantic
-This is a rough implementation of semantic-NeRF based on torch-ngp
+This is a implementation of semantic-NeRF based on torch-ngp
 
 ### Achievement:
 
-The learning of semantic NeRF can be achieved in a very short time.(！！！about **20** minutes)
+The learning of semantic NeRF can be achieved in a very short time.(about **20** minutes)
 
 ### Limitation:
 
@@ -79,7 +79,7 @@ If you find this work useful, a citation will be appreciated via:
 @misc{torch-ngp-semantic,
     Author = {Zhangyu Lai},
     Year = {2023},
-    Note = {https://github.com/Clear-3d/torch-ngp-semantic/},
+    Note = {https://github.com/Clear-3d/torch-ngp-semantic},
     Title = {torch-ngp-semantic: a implementation of semantic-NeRF based on torch-ngp}
 }
 
