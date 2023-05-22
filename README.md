@@ -1,9 +1,9 @@
 # torch-ngp-semantic
-This is an rough implementation of semantic-NeRF based on torch-ngp:
+This is a rough implementation of semantic-NeRF based on torch-ngp
 
 ### Achievement:
 
-The learning of semantic neural field can be achieved in a very short time.(about 20 minutes)
+The learning of semantic neural field can be achieved in a very short time.(！！！about 20 minutes)
 
 ### Limitation:
 
@@ -63,7 +63,7 @@ If your GPU memory is enough, you can add --preload
 python main_nerf.py /data/dmsr/bathroom/train/ --workspace /data/dmsr/bathroom/train_rebuild/test --path_sem /data/dmsr/bathroom/train/semantic/ --preload
 ```
 
-During training, you can check the current learning results of the scene in workspace.
+During training, you can check the current learning results of the scene in **workspace**.
 
 After finishing the previous step, if you have a graphical display, you can run below to see the result in the GUI:
 
@@ -75,11 +75,7 @@ Do not use -O for training, because this repository does not implement the cuda 
 
 Since I didn't have time to complete the whole project, I can only make sure that the above training and display process is correct. If you are interested in improving the whole project, feel free to ask questions in the issue.
 
-
-
-
-
-## Acknowledgement
+# Acknowledgement
 
 Thanks to torch-ngp for a very nice pytorch implementation of Instant-ngp:
 
