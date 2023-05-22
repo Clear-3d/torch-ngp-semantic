@@ -10,8 +10,7 @@ Limitation:
 Because the rendering process of semantic category prediction volume rendering has not been completed yet, it cannot be accelerated by cuda. And, the implementation content of this project is relatively limited, which can only achieve the semantic field learning and limited visual display. 
 
 ## Results show
-![image]assets/GIFS/bathroom.gif ![image]assets/GIFS/bedroom.gif ![image]assets/GIFS/dinning.gif ![image]assets/GIFS/kitchen.gif
-![image]assets/GIFS/office.gif ![image]assets/GIFS/reception.gif ![image]assets/GIFS/restroom.gif ![image]assets/GIFS/study.gif
+[![image]assets/GIFS/bathroom.gif](https://github.com/Clear-3d/torch-ngp-semantic/blob/3b18bb8860f9873d7ee8ceac99c0ee443702a592/assets/GIFS/bathroom.gif)
 
 
 # Install
