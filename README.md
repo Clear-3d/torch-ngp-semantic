@@ -1,4 +1,4 @@
-# torch-ngp-semantic
+## torch-ngp-semantic
 This is an rough implementation of semantic-NeRF based on torch-ngp:
 
 Achievement:
@@ -10,7 +10,8 @@ Limitation:
 Because the rendering process of semantic category prediction volume rendering has not been completed yet, it cannot be accelerated by cuda. And, the implementation content of this project is relatively limited, which can only achieve the semantic field learning and limited visual display. 
 
 ## Results show
-
+assets/GIFS/bathroom.gif assets/GIFS/bedroom.gif assets/GIFS/dinning.gif assets/GIFS/kitchen.gif
+assets/GIFS/office.gif assets/GIFS/reception.gif assets/GIFS/restroom.gif assets/GIFS/study.gif
 
 
 # Install
