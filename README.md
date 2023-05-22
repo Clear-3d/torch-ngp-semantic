@@ -1,4 +1,4 @@
-## torch-ngp-semantic
+# torch-ngp-semantic
 This is an rough implementation of semantic-NeRF based on torch-ngp:
 
 Achievement:
@@ -9,8 +9,8 @@ Limitation:
 
 Because the rendering process of semantic category prediction volume rendering has not been completed yet, it cannot be accelerated by cuda. And, the implementation content of this project is relatively limited, which can only achieve the semantic field learning and limited visual display. 
 
-## Results show
-![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/3b18bb8860f9873d7ee8ceac99c0ee443702a592/assets/GIFS/bathroom.gif)
+# Results show
+[![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/9f3115edcd420a914f65dc889b9590a8bec6e413/assets/show1.gif)
 
 
 # Install
@@ -47,7 +47,7 @@ pip install . # install to python path (you still need the raymarching/ folder, 
 
 * Ubuntu 18.04 with torch 1.10 & CUDA 11.3 on an A100-PCIE-40GB.
 
-## Usage
+# Usage
 
  used the DMSR dataset with a modified format for testing, please download and place it in the appropriate path.
 
