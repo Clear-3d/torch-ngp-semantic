@@ -29,9 +29,6 @@ pip install -r requirements.txt
 
 ### Build extension (optional)
 
-By default, we use [`load`](https://pytorch.org/docs/stable/cpp_extension.html#torch.utils.cpp_extension.load) to build the extension at runtime.
-However, this may be inconvenient sometimes.
-Therefore, we also provide the `setup.py` to build each extension:
 
 ```bash
 # install all extension modules
