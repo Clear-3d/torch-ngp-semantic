@@ -3,7 +3,7 @@ This is a rough implementation of semantic-NeRF based on torch-ngp
 
 ### Achievement:
 
-The learning of semantic neural field can be achieved in a very short time.(！！！about 20 minutes)
+The learning of semantic NeRF can be achieved in a very short time.(！！！about **20** minutes)
 
 ### Limitation:
 
