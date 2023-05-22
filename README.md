@@ -62,7 +62,7 @@ python main_nerf.py /data/dmsr/bathroom/train/ --workspace /data/dmsr/bathroom/t
 
 During training, you can check the current learning results of the scene in **workspace**.
 
-After finishing the previous step, if you have a graphical display, you can run below to see the result in the GUI:
+After finishing the previous step, if you have a graphical display, you can run below to see the result in the GUI([e.g.](https://github.com/Clear-3d/torch-ngp-semantic/blob/e08a8621cb4e0f0bd6bbfa96ed4a4e9d450307c5/assets/GUI.mp4)):
 
 ```
 python main_nerf.py /data/dmsr/bathroom/train/ --workspace /data/dmsr/bathroom/train_rebuild/test --path_sem /data/dmsr/bathroom/train/semantic/ --preload --gui
