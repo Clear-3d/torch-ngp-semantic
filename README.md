@@ -1,22 +1,22 @@
-## torch-ngp-semantic
-This is an rough implementation of semantic-NeRF based on torch-ngp:
+# torch-ngp-semantic
+This is a implementation of semantic-NeRF based on torch-ngp
 
-Achievement:
+### Achievement:
 
-The learning of semantic neural field can be achieved in a very short time.(about 20 minutes)
+The learning of semantic NeRF can be achieved in a very short time.(about **20** minutes)
 
-Limitation:
+### Limitation:
 
 Because the rendering process of semantic category prediction volume rendering has not been completed yet, it cannot be accelerated by cuda. And, the implementation content of this project is relatively limited, which can only achieve the semantic field learning and limited visual display. 
 
-## Results show
-![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/3b18bb8860f9873d7ee8ceac99c0ee443702a592/assets/GIFS/bathroom.gif)
+# Results show
+![image](https://github.com/Clear-3d/torch-ngp-semantic/blob/9f3115edcd420a914f65dc889b9590a8bec6e413/assets/show1.gif)
 
 
 # Install
 
 ```bash
-https://github.com/Clear-3d/torch-ngp-semantic.git
+git clone https://github.com/Clear-3d/torch-ngp-semantic.git
 cd torch-ngp-semantic 
 ```
 
@@ -29,9 +29,6 @@ pip install -r requirements.txt
 
 ### Build extension (optional)
 
-By default, we use [`load`](https://pytorch.org/docs/stable/cpp_extension.html#torch.utils.cpp_extension.load) to build the extension at runtime.
-However, this may be inconvenient sometimes.
-Therefore, we also provide the `setup.py` to build each extension:
 
 ```bash
 # install all extension modules
@@ -47,9 +44,9 @@ pip install . # install to python path (you still need the raymarching/ folder, 
 
 * Ubuntu 18.04 with torch 1.10 & CUDA 11.3 on an A100-PCIE-40GB.
 
-## Usage
+# Usage
 
- used the DMSR dataset with a modified format for testing, please download and place it in the appropriate path.
+I modified some DMSR dataset format to make it easier to use, you can download it here.
 
 Train code：
 
@@ -63,7 +60,7 @@ If your GPU memory is enough, you can add --preload
 python main_nerf.py /data/dmsr/bathroom/train/ --workspace /data/dmsr/bathroom/train_rebuild/test --path_sem /data/dmsr/bathroom/train/semantic/ --preload
 ```
 
-During training, you can check the current learning results of the scene in workspace.
+During training, you can check the current learning results of the scene in **workspace**.
 
 After finishing the previous step, if you have a graphical display, you can run below to see the result in the GUI:
 
@@ -75,11 +72,24 @@ Do not use -O for training, because this repository does not implement the cuda 
 
 Since I didn't have time to complete the whole project, I can only make sure that the above training and display process is correct. If you are interested in improving the whole project, feel free to ask questions in the issue.
 
+# Citation
+
+If you find this work useful, a citation will be appreciated via:
+```
+@misc{torch-ngp-semantic,
+    Author = {Zhangyu Lai},
+    Year = {2023},
+    Note = {https://github.com/Clear-3d/torch-ngp-semantic},
+    Title = {torch-ngp-semantic: a implementation of semantic-NeRF based on torch-ngp}
+}
+
+```
 
 
 
 
-## Acknowledgement
+
+# Acknowledgement
 
 Thanks to torch-ngp for a very nice pytorch implementation of Instant-ngp:
 
