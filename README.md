@@ -1,5 +1,5 @@
 # torch-ngp-semantic
-This is a implementation of semantic-NeRF based on torch-ngp
+This is an implementation of semantic-NeRF based on torch-ngp
 
 ### Achievement:
 
